@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap'); /* ag soft */
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap'); /* gerenciador */
+
+body{
+    margin: 0;
+    background: rgba(128, 128, 128, 0.697);         
+} 
+
+#textologo{
+    color: white;
+    font-family: 'Kalam', cursive;
+    text-shadow: 1px 2px 1px black;
+    font-size: 22px;    
+    text-align: center;
+    margin-top: -20px;
+}
+
+#container{
+    background-color: rgba(0, 0, 0, 0.328);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 18px;
+    border-color: white;
+    width: 350px;
+    height: 350px;    
+    
+    /* alinha no centro da div */ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* alinha no centro da tela */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+        
+}
+
+#elemento{
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgba(177, 173, 173, 0.553);
+    border-radius: 10px;
+    border-color: white;
+    
+    height: 170px;
+    width: 250px;
+
+    margin-top: -20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center; 
+
+}
+
+input[type="text"]
+{
+    font-size: 15px;
+}
+
+input[type="password"]{
+    font-size: 15px;
+}
+
+input[type="submit"]
+{
+    font-size: 17px;
+}
+
+input{
+    width: 220px;
+    border-radius: 8px; 
+}
+
+#edtemail{
+    margin-bottom: 10px;
+}
+
+#btnentrar{
+    width: 225px;
+    height: 40px;
+    
+    border-radius: 20px;
+    margin-top: 20px;
+
+    background-color: black;
+    color: white;  
+
+    cursor: pointer;
+}
+
+#marca{
+    font-family: 'Itim', cursive;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+}
+
+
